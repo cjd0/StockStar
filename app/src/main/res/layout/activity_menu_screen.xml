@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StockScreen">
+    tools:context=".MenuScreen">
 
     <TextView
-        android:id="@+id/tvStockTitle"
+        android:id="@+id/tvMenuTitle"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:fontFamily="sans-serif"
-        android:text="Stock"
+        android:text="Menu"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="48sp"
@@ -21,17 +21,17 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.109" />
+        app:layout_constraintVertical_bias="0.108" />
 
     <Button
-        android:id="@+id/btnBackStock"
+        android:id="@+id/btnBackMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvStockTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvMenuTitle"
         app:layout_constraintVertical_bias="0.97" />
 </androidx.constraintlayout.widget.ConstraintLayout>
