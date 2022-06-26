@@ -14,6 +14,15 @@
         android:theme="@style/Theme.StockStar"
         tools:targetApi="31">
         <activity
+            android:name=".SettingsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MealsScreen"
+            android:exported="false" />
+        <activity
+            android:name=".StockScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
