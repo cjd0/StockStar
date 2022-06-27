@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddStockScreen">
+    tools:context=".AddMealScreen">
 
     <TextView
-        android:id="@+id/tvAddStockTitle"
+        android:id="@+id/tvAddMealTitle"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:fontFamily="sans-serif"
-        android:text="Add stock"
+        android:text="Add meal"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="48sp"
@@ -31,7 +31,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvAddStockTitle">
+        app:layout_constraintTop_toBottomOf="@+id/tvAddMealTitle">
 
         <EditText
             android:id="@+id/etMealName"
@@ -39,50 +39,46 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="92dp"
             android:ems="10"
+            android:hint="Meal name"
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:selectAllOnFocus="true"
-            android:hint="Grocery name"
             android:visibility="visible" />
 
         <EditText
-            android:id="@+id/etGroceryAmount"
+            android:id="@+id/etIngredient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="numberDecimal"
-            android:minHeight="48dp"
-            android:selectAllOnFocus="true"
-            android:hint="Amount" />
-
-        <EditText
-            android:id="@+id/edExpiryDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Expiry date"
-            android:inputType="date"
-            android:minHeight="48dp" />
-
-        <Spinner
-            android:id="@+id/spGroceryLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Location"
+            android:hint="Ingredient"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:spinnerMode="dropdown"
-            android:contentDescription="Select location"/>
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            android:id="@+id/tvMealArray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Meal ingredients"
+            android:minHeight="48dp" />
 
         <Button
-            android:id="@+id/btnInputStock"
+            android:id="@+id/btnAddIngredient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
             android:minHeight="48dp"
-            android:text="Input" />
+            android:text="Add ingredient" />
+
+        <Button
+            android:id="@+id/btnInputMeal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:minHeight="48dp"
+            android:text="Submit" />
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
