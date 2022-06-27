@@ -17,7 +17,7 @@ public class StockScreen extends AppCompatActivity {
         setContentView(R.layout.activity_stock_screen);
 
         //assign buttons
-        addStockButton = findViewById(R.id.btnAddStock);
+        addStockButton = (Button)findViewById(R.id.btnAddStock);
 
         //set button listeners
         addStockButton.setOnClickListener(new View.OnClickListener() {

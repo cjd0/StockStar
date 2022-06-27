@@ -26,8 +26,8 @@ public class AddStockScreen extends AppCompatActivity {
         setContentView(R.layout.activity_add_stock_screen);
 
         //assign UI elements
-        locationDropdown = findViewById(R.id.spGroceryLocation);
-        inputButton = findViewById(R.id.btnInputStock);
+        locationDropdown = (Spinner)findViewById(R.id.spGroceryLocation);
+        inputButton = (Button)findViewById(R.id.btnInputStock);
 
         //create adapter for spinner dropdown
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
