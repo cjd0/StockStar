@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_add_meal_screen.xml" value="0.5" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_add_meal_screen.xml" value="0.41624365482233505" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_add_stock_screen.xml" value="0.16590678824721378" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_main.xml" value="0.16590678824721378" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_meals_screen.xml" value="0.16590678824721378" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_menu_screen.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_modify_menu_screen.xml" value="0.2015625" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_settings_screen.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_shopping_list_screen.xml" value="0.2015625" />
         <entry key="..\:/Users/Chris/AndroidStudioProjects/StockStar/app/src/main/res/layout/activity_stock_screen.xml" value="0.16590678824721378" />
       </map>
     </option>
